@@ -1,0 +1,12 @@
+Source: ros-indigo-termcolor
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <stonier@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-termcolor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: C++ library for printing colours in ansii consoles.
